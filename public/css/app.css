@@ -1,0 +1,118 @@
+/* defaulft */
+body{
+    font-family: 'Roboto', serif;
+    font-weight: 16px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul li{
+    list-style-type: none;
+}
+li {
+    padding-left: 32px;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+h3{
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+
+/* home-page */
+.main-banner {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+/* .dropdown>.dropdown-toggle:active {
+    Without this, clicking will make it sticky
+    pointer-events: none;
+} */
+.header{
+    height: 120px;
+}
+.search-input{
+    /* width: 100%; */
+}
+.nav-item{
+    padding: 0;
+}
+
+
+/* category */
+
+.list_menu a{
+    color: black;
+}
+.list_menu li{
+
+}
+.item-left ul , .item-left li{
+        padding-left: 0px;
+
+}
+.list_menu a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.products{
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+.product-img img{
+    width: 100%;
+    /* max-height: 100%; */
+    height: 170px;
+    object-fit: cover;
+}
+.product-card > a:last-child {
+    background-color: yellow;
+}
+.product-card a:first-child {
+    color: black;
+}
+.related_products li{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.wrapper{
+    max-width: none !important;
+}
+.prameter *{
+    padding: 0 !important;
+    padding-top:10px !important
+}
+
+
+
+/*detail-product */
+pre{
+    font-family: 'Times New Roman', Times, serif;
+}
+.content {
+    max-height: 100px;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+.content.expanded {
+    max-height: 1000px;
+}
+.product_img{
+    min-height: 50%;
+}
